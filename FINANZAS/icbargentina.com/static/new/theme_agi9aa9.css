@@ -1,0 +1,204 @@
+
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #EA7F73;
+  --secondary: #4f70ce;
+  --success: #28a745;
+  --info: #ccc;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #EA7F73;
+  --dark: #49224e;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+body {
+  color: #300037;
+}
+
+a {
+  color: #98358e;
+}
+a:hover {
+  color: #49224e;
+}
+
+.table {
+  color: #300037; 
+}
+
+.table-hover tbody tr:hover {
+  color: #300037;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.form-control:focus {
+  border-color: #6D3475;
+}
+
+.form-control-plaintext {
+  color: #300037;
+}
+
+.btn {
+  color: #6D3475;
+}
+.btn:hover {
+  color: #90449C;
+}
+.btn:focus, .btn.focus {
+  box-shadow: 0 0 0 0.2rem rgba(234, 127, 115, 0.25);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #98358e;
+  border-color: #49234F;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #49234F;
+  border-color: #49224e;
+}
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.2rem rgba(204, 114, 104, 0.5);
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #212529;
+  background-color: #68486d;
+  border-color: #68486d;
+}
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #49224e;
+  border-color: #C3A0C8;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.2rem rgba(204, 114, 104, 0.5);
+}
+
+.btn-link {
+  color: #98358e;
+}
+.btn-link:hover {
+  color: #49224e;
+}
+
+.dropdown-menu {
+  color: #300037;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  background-color: #49234F;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #49234F;
+}
+
+.page-link {
+  color: #98358e;
+  background-color: #fff;
+  border: 1px solid #dee2e6; 
+}
+.page-link:hover {
+  color: #49224e;
+  background-color: #e9ecef;
+  border-color: #dee2e6;
+}
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem rgba(234, 127, 115, 0.25);
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #49234F;
+  border-color: #49234F; 
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #49234F;
+}
+a.badge-primary:hover, a.badge-primary:focus {
+  color: #fff;
+  background-color: #49234F;
+}
+a.badge-primary:focus, a.badge-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(234, 127, 115, 0.5);
+}
+
+.popover-body {
+  padding: 0.5rem 0.75rem;
+  color: #300037;
+}
+
+.bg-primary {
+  background-color: #98358e !important;
+}
+
+.bg-light {
+  background-color: #90449C !important;
+}
+
+.text-primary {
+  color: #49234F !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #843F8F !important;
+}
+
+.text-light {
+  color: #98358e !important; }
+
+a.text-light:hover, a.text-light:focus {
+  color: #49234F !important; }
+
+.text-dark {
+  color: #49224e !important; }
+
+a.text-dark:hover, a.text-dark:focus {
+  color: #90449C !important; }
+
+.text-body {
+  color: #300037 !important; }
+
+.fondo-degrade {
+  background-color: #843f8f;
+  /*
+  background: linear-gradient(to bottom right, #e45d4e, #EA7F73 );
+  background: -webkit-linear-gradient(to bottom right, #e45d4e, #EA7F73);
+  background: -moz-linear-gradient(to bottom right, #e45d4e, #EA7F73);
+  background: -o-linear-gradient(to bottom right, #e45d4e, #EA7F73);
+  background: -ms-linear-gradient(to bottom right, #e45d4e, #EA7F73);
+  -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#e45d4e',endColorStr='#EA7F73',GradientType=0);
+  */
+}
+
+#cuadros-cursos td {
+  font-weight: 300;
+}

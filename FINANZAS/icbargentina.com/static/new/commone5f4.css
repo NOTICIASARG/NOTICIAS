@@ -1,0 +1,155 @@
+img.resize-logo {
+  width: 120px;
+  height: auto;
+}
+b, strong {
+  font-weight:bold !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto; 
+}
+/* CUSTOM FOR COURSES/HOME SECTION */
+#cuadros-cursos table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#cuadros-cursos th {
+  width: 40%;
+  vertical-align: top;
+  border-bottom: 1px solid #ffe6ff;
+  /*border-right: 1px solid blue;*/
+  text-align: left;
+}
+#cuadros-cursos td {
+  vertical-align: top;
+  text-align: right;
+  border-bottom: 1px solid #ffe6ff;
+}
+.contact-info-table {
+  vertical-align: middle;
+  text-align: left;
+  border-bottom: 0px;
+  padding: 15px;
+}
+.feriado {
+  color: #fff;
+  background: #ccccff;
+  text-align: center;
+}
+.modulo1, .module1 {
+  color: #fff;
+  background: #398f5d;
+  text-align: center;
+}
+.modulo2, .module2 {
+  color: #fff;
+  background: #d9b825;
+  text-align: center;
+}
+.modulo3, .module3 {
+  color: #fff;
+  background: #843f8f;
+  text-align: center;
+}
+.modulo4, .module4 {
+  color: #fff;
+  background: #9966cc;
+  text-align: center;
+}
+.modulo-fys, .module-fys, .moduleFYS {
+  color: #fff;
+  background: #3D9C67;
+  text-align: center;
+}
+.moduloN, .moduleN {
+  color: #fff;
+  background: #663399;
+  text-align: center;
+}
+.module1-on-demand {
+  color: #fff;
+  background: #629979;
+  text-align: center;
+}
+.module2-on-demand {
+  color: #fff;
+  background: #dbce91;
+  text-align: center;
+}
+.module3-on-demand {
+  color: #fff;
+  background: #af75b7;
+  text-align: center;
+}
+.module4-on-demand {
+  color: #fff;
+  background: #b492d7;
+  text-align: center;
+}
+.moduleFYS-on-demand {
+  color: #fff;
+  background: #81b89a;
+  text-align: center;
+}
+.module-fys-on-demand {
+  color: #fff;
+  background: #81b89a;
+  text-align: center;
+}
+.moduleN-on-demand {
+  color: #fff;
+  background: #a07fc2;
+  text-align: center;
+}
+.clasenivelacion {
+  color: #000;
+  background: #F6F39F;
+  text-align: center;
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+#myStickyBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5%; /* Place the button at the bottom of the page */
+  right: 5%; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; /* Add a mouse pointer on hover */
+}
+#socialMediaButtons {
+  position: fixed;
+  bottom: 50%;
+  right: 0px;
+  z-index: 99;
+}
+.scrollBtn {
+  text-shadow:0px 0px 9px black;
+}
+.scrollBtn a:hover {
+  text-decoration: none;
+}
+.hide {
+  display: none;
+}
+.intl-tel-input {
+  position: relative;
+  display: flex;
+}
+body {
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+.text-grey {
+  color: #424d56 !important;
+}
+.text-yellow {
+  color: #fff12d !important;
+}
